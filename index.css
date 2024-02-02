@@ -1,0 +1,161 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #8d7ea5;;
+}
+header
+{
+   /*  border:1px solid red; */
+    display: flex;
+    justify-content:space-around;
+    background-color: blueviolet;
+    height: 400px;
+}
+
+#introdiv
+{
+   
+    width: 55%;
+    display: flex;
+     flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+#introdiv h1, h2
+{
+    padding: 10px;
+}
+
+#introdiv p
+{
+    font-size: 20px;
+    margin:10px;
+    text-align: center;
+}
+#introdiv a
+{
+    color:black;
+    text-decoration: none;
+    border: 1px solid white;
+    padding:5px;
+    background-color: rgb(240, 237, 233);
+    font-weight: bold;
+    border-radius: 7px;
+    margin: 20px;
+
+}
+ #imgdiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+   /*  border: 2px solid red; */
+}
+#imgdiv img
+{
+     box-shadow: 0px 0px 10px rgb(29, 14, 29); 
+}
+#about h2, #skills h2, #projects h2, #education h2
+{
+    background-color: rgb(231, 221, 240);
+    border: 2px solid rgb(42, 39, 46);
+    font-weight: dark;
+    width: 30%;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#about  p, #skills p
+{
+    margin: 0px 20px;
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+
+}
+#skills ul
+{
+    padding:0;
+    margin: 10px 20px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+#skills ul li
+{
+    margin-left:20px;
+    margin-right: 20px;
+     margin-top:10px;
+    margin-bottom: 10px; 
+}
+.project
+{
+    border: 1px solid white;
+    margin: 20px;
+}
+.project h3
+{
+    background-color: rgb(231, 221, 240);
+    border: 2px solid rgb(42, 39, 46);
+    width: 30%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.project p
+{
+    margin: 20px;
+   /*  border: 2px solid white; */
+    padding: 6px;
+    color:white;
+    text-align: justify;
+}
+
+#maindegree
+{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.degree_div 
+{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+     align-items: center; 
+     justify-content: center;
+}
+.degree_div img
+{
+    border-radius: 5px ;
+    border: 2px solid rgb(60, 25, 68);
+    box-shadow: 3px 3px 8px 2px rgb(60, 25, 68);
+}
+.degree_div p
+{
+    color: white;
+    font-size: 18px;
+    background-color:rgb(42 25 58);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px; 
+}
+.spantag
+{
+    font-weight: bolder;
+    font-size: 21px;
+}
+footer
+{
+    background-color: rgb(174, 118, 226);
+    height: 200px;
+    display: flex;
+   color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
